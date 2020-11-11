@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("111")
+	fmt.Println("master")
 	conf := ini.NewIniFileConfigSource("ec.ini")
 	client := eureka.NewClient(conf)
 	client.Start()
